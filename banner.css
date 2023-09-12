@@ -1,0 +1,44 @@
+
+/* .banner_contents{
+background-image: `url("https://image.tmdb.org/t/p/original/$(movie?.backdrop)")`; 
+min-height: 500px;
+
+ /* Center and scale the image nicely */
+ /* background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-top: 10px;
+ margin-left: 0px; */
+ /* Needed to position the navbar */
+ /* position: relative; */
+/* } */ 
+
+.banner{
+  position: relative;
+  height: 448px;
+  object-fit: contain;
+  margin:32px;
+
+} 
+.banner_contents{
+  margin-left: 10px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner_title{
+  margin-left: 10px;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner_desc{
+  width:50rem;
+  line-height: 1;
+  padding-top: 1rem;
+  font-size:0.1rem;
+  /* font-weight:100; */
+  max-width: 750px;
+  height: 80px;
+}
